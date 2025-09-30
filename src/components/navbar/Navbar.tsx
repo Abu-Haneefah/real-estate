@@ -11,12 +11,13 @@ function Navbar() {
       <div className="left">
         <a href="/" className="logo">
           <img src="/logo.png" alt="" />
-          <span>LamaEstate</span>
+          <span>GreenEstate</span>
         </a>
         <a href="/">Home</a>
-        <a href="/">About</a>
-        <a href="/">Contact</a>
-        <a href="/">Agents</a>
+        <a href="/list">List</a>
+        <a href="/newPost">New Post</a>
+        <a href="/ profilePage">Profile</a>
+        <a href="/register">Register</a>
       </div>
       <div className="right">
         {user ? (

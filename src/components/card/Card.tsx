@@ -1,7 +1,21 @@
 import { Link } from "react-router-dom";
 import "./card.scss";
 
-function Card({ item }) {
+interface CardItem {
+  id: string | number;
+  img: string;
+  title: string;
+  address: string;
+  price: number | string;
+  bedroom: number | string;
+  bathroom: number | string;
+}
+
+interface CardProps {
+  item: CardItem;
+}
+
+function Card({ item }: CardProps) {
   return (
     <div className="card">
       <Link to={`/${item.id}`} className="imageContainer">

@@ -49,11 +49,10 @@ function Navbar() {
         </div>
         <div className={open ? "menu active" : "menu"}>
           <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Contact</a>
-          <a href="/">Agents</a>
-          <a href="/">Sign in</a>
-          <a href="/">Sign up</a>
+          <a href="/list">List</a>
+          <a href="/newPost">New Post</a>
+          <a href="/ profilePage">Profile</a>
+          <a href="/register">Register</a>
         </div>
       </div>
     </nav>

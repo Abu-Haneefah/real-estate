@@ -16,12 +16,12 @@ The goal is to combine **usability**, **performance**, and **visual appeal**, gi
 
 ## 🔍 Key Features
 
-- 📋 **Property Listings** – Grid or card layout of properties with images, locations, prices  
-- 🏡 **Property Detail Pages** – Full view with gallery, description, amenities, map view  
-- 🔎 **Filtering & Search** – Filter by price, location, property type, etc.  
-- 📱 **Responsive Design** – Works well on desktop, tablet, and mobile  
-- 🧩 **Modular Components** – Reusable UI elements for listings, forms, cards, etc.  
-- ⚡ **Fast Loading** – Optimized for performance and smooth transitions  
+- 📋 **Property Listings** – Grid or card layout of properties with images, locations, prices
+- 🏡 **Property Detail Pages** – Full view with gallery, description, amenities, map view
+- 🔎 **Filtering & Search** – Filter by price, location, property type, etc.
+- 📱 **Responsive Design** – Works well on desktop, tablet, and mobile
+- 🧩 **Modular Components** – Reusable UI elements for listings, forms, cards, etc.
+- ⚡ **Fast Loading** – Optimized for performance and smooth transitions
 
 ---
 
@@ -29,27 +29,27 @@ The goal is to combine **usability**, **performance**, and **visual appeal**, gi
 
 Here are the main technologies (you can modify or add more):
 
-- **Framework**: Next.js / React  
-- **Styling**: Tailwind CSS or your choice of CSS solution  
-- **State / Logic**: React state, Context, or another state library  
-- **Maps & UI**: (e.g. Google Maps, Leaflet, or an interactive map library)  
-- **Deployment**: Vercel  
+- **Framework**: React Js
+- **Styling**: Tailwind CSS or your choice of CSS solution
+- **State / Logic**: React state, Context, or another state library
+- **Maps & UI**: (e.g. Google Maps, Leaflet, or an interactive map library)
+- **Deployment**: Vercel
 
 ---
 
 ## 📸 Screenshots / Preview
 
-
-| Screen | Preview |
-|--------|---------|
-| Property Listing Page | ![Listing](./screenshots/listing.png) |
-| Property Detail Page | ![Detail](./screenshots/detail.png) |
+| Screen                | Preview                              |
+| --------------------- | ------------------------------------ |
+| Property Listing Page | ![Listing](./Images/e-commerce3.PNG) |
+| Property Detail Page  | ![Profile](./Images/ecommerce4.PNG)  |
 
 ---
 
 ## 🚀 Getting Started
 
-1. **Clone the Repo**  
+1. **Clone the Repo**
    ```bash
    git clone https://github.com/your-username/real-estate-app.git
    cd real-estate-app
+   ```

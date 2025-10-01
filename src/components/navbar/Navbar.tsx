@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./navbar.scss";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -49,10 +49,10 @@ function Navbar() {
         </div>
         <div className={open ? "menu active" : "menu"}>
           <a href="/">Home</a>
-          <a href="/list">List</a>
-          <a href="/newPost">New Post</a>
-          <a href="/ profilePage">Profile</a>
-          <a href="/register">Register</a>
+          <NavLink to={"/list"}>List</NavLink>
+          <NavLink to={"/newPost"}>New Post</NavLink>
+          <NavLink to={"/profilePage"}>Profile</NavLink>
+          <NavLink to={"/register"}>Register</NavLink>
         </div>
       </div>
     </nav>
